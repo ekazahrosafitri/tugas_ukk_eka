@@ -1,0 +1,71 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Montserrat';
+}
+
+.logo img {
+  width: 65px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  padding: 10px 15px;
+}
+
+.nav-links a:hover {
+  color: #b08804;
+}
+
+.profile-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-menu img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #737f5d;
+  padding: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 150px;
+  z-index: 1000;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown a:hover {
+  background: #f3f3f3;
+}
